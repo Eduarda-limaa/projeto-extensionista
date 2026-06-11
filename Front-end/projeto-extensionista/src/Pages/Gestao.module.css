@@ -1,0 +1,136 @@
+.containerMov {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.titulo {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.subtitulo {
+  font-size: 22px;
+  margin-top: 10px;
+  color: #444;
+  font-weight: 600;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 8px;
+  color: #444;
+}
+
+
+.select,
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #fdfdfd;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.select:focus,
+.input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+}
+
+
+.btnMov {
+  width: 100%;
+  padding: 12px;
+  margin-top: 18px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btnMov:hover {
+  background: #005fcc;
+}
+
+
+.msg {
+  text-align: center;
+  color: #2e7d32;
+  font-weight: 600;
+  margin-top: -5px;
+}
+
+.semMov {
+  text-align: center;
+  font-size: 15px;
+  padding: 10px 0;
+  color: #777;
+}
+
+
+.tabelaHistorico {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+  background: #fafafa;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.tabelaHistorico th {
+  background: #007bff;
+  color: #fff;
+  padding: 12px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.tabelaHistorico td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+}
+
+.tabelaHistorico tr:hover td {
+  background: #eef7ff;
+}
+
+
+@media (max-width: 600px) {
+  .containerMov {
+    padding: 18px;
+  }
+
+  .titulo {
+    font-size: 24px;
+  }
+
+  .subtitulo {
+    font-size: 19px;
+  }
+
+  .tabelaHistorico th,
+  .tabelaHistorico td {
+    font-size: 14px;
+    padding: 8px;
+  }
+}

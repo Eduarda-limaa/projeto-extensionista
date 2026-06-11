@@ -1,0 +1,41 @@
+.buscaContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.buscaContainer input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.buscaContainer input:focus {
+  border-color: #6a5acd;
+  box-shadow: 0 0 0 3px rgba(106, 90, 205, 0.2);
+  outline: none;
+}
+
+.buscaContainer button {
+  padding: 10px 18px;
+  background-color: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.buscaContainer button:hover {
+  background-color: #5946c1;
+}
+
+.buscaContainer button:active {
+  transform: scale(0.97);
+}
